@@ -1,0 +1,39 @@
+<!-- 
+    Filename:     projects.ejs 
+    Student name: Hyesun An
+    StudentID:    301314692
+    Date:         Oct. 2, 2023 
+  -->
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">My Projects</h1>
+          <br>
+           <h4><u>BMR Calculator:</u></h4>
+             <p>This is a BMR calculator which can tell your BMR based on the details entered by user like Age,
+                Height, Weight, Gender, and Activity level. It has two unit systems to choose from, Metric and Imperial 
+                Unit system. It will also tell your daily calorie intake.  
+              </p>
+          <br><br>
+            <h4><u>Weather Application:</u></h4>
+              <p>This application is designed for telling the weather information of any city name entered by the user using
+                Google Weather API. You can view the weather for upto four cities together on one page and displays temperature,
+                feels like, humidity, wind speed including weather icon.</p>
+          <br>
+          <br>
+            <h4><u>Table Generator:</u></h4>
+              <p>Thiis is a table generator app. Upon loading, it will prompt the user to enter number of rows and
+                number of columns and then it will prepare the table along with the index numbers for you as shown in picture.   
+              </p>
+    </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
